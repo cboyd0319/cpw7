@@ -11,7 +11,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Stored XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: https://github.com/cboyd0319/cpw7/blob/master/gifs/CVE-2015-5622.gif
+  - [ ] GIF Walkthrough: ![](https://github.com/cboyd0319/cpw7/blob/master/gifs/CVE-2015-5622.gif)
   - [ ] Steps to recreate: An Editor user or above creates a post with the exploit link in text (not WYSIWYG) mode.
   - [ ] Affected source code: https://core.trac.wordpress.org/changeset/33359
     - [NVD](https://nvd.nist.gov/vuln/detail/CVE-2015-5622)
