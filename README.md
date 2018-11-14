@@ -14,7 +14,8 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: https://github.com/cboyd0319/cpw7/blob/master/gifs/CVE-2015-5622.gif
   - [ ] Steps to recreate: Allows remote authenticated users to inject arbitrary web script or HTML by leveraging the Author or Contributor role to place a crafted shortcode inside an HTML element
   - [ ] Affected source code:
-    - [Link 1](https://nvd.nist.gov/vuln/detail/CVE-2015-5622)
+    - [NVD](https://nvd.nist.gov/vuln/detail/CVE-2015-5622)
+    - [WPVulnDB](https://wpvulndb.com/vulnerabilities/8111)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
