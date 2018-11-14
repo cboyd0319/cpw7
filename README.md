@@ -16,6 +16,7 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code: https://core.trac.wordpress.org/changeset/33359
     - [NVD](https://nvd.nist.gov/vuln/detail/CVE-2015-5622)
     - [WPVulnDB](https://wpvulndb.com/vulnerabilities/8111)
+
 2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: Publish Post & Mark as Sticky Permission Issue
     - Vulnerability types: XSS
@@ -26,33 +27,16 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code: https://github.com/WordPress/WordPress/commit/9c57f3a4291f2311ae05f22c10eedeb0f69337ab
     - [Debian.org](https://security-tracker.debian.org/tracker/CVE-2015-5715)
     - [WPVulnDB](https://wpvulndb.com/vulnerabilities/8188)
-3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-4. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-5. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+
+3. (Required) Internal GET SSRF via CSRF with Press This scan feature
+  - [ ] Summary: Wordpress installations can send unwanted scrape/scan requests on behalf of their user invoked by the attacker. Including private connections via 0.0.0.0
+    - Vulnerability types: SSRF
+    - Tested in version: 4.2
+    - Fixed in version: 4.4.1
+  - [ ] GIF Walkthrough: ![](https://github.com/cboyd0319/cpw7/blob/master/gifs/SSRF.gif)
+  - [ ] Steps to recreate: Phishing link to logged in admin
+  - [ ] Affected source code: http://wpdistillery.vm/wp-admin/press-this.php?u=URL&url-scan-submit=Scan
+    - [HackerOne](https://hackerone.com/reports/110801)
 
 ## Assets
 
