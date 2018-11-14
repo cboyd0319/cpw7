@@ -7,7 +7,7 @@ Time spent: **X** hours spent in total
 ## Pentesting Report
 
 1. (Required) Authenticated Stored Cross-Site Scripting (XSS)
-  - [ ] Summary: 
+  - [ ] Summary: Authenticated Cross-Site Scripting (XSS) in post/page (text editor mode). Editor user and up.
     - Vulnerability types: Stored XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
@@ -16,11 +16,11 @@ Time spent: **X** hours spent in total
   - [ ] Affected source code:
     - [NVD](https://nvd.nist.gov/vuln/detail/CVE-2015-5622)
     - [WPVulnDB](https://wpvulndb.com/vulnerabilities/8111)
-2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
+  - [ ] Summary: Publish Post & Mark as Sticky Permission Issue
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.3.1
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
@@ -56,14 +56,13 @@ Time spent: **X** hours spent in total
 ## Assets
 
 List any additional assets, such as scripts or files
-- [Kali Linux](https://www.kali.org/)
-- [WPScan](https://wpscan.org/)
-- [WPVulnDB](https://wpvulndb.com)
 
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
+- [Kali Linux](https://www.kali.org/)
+- [WPScan](https://wpscan.org/)
 - [WPVulnDB](https://wpvulndb.com)
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
