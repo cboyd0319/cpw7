@@ -21,7 +21,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.3.1
-  - [ ] GIF Walkthrough: https://github.com/cboyd0319/cpw7/blob/master/gifs/CVE-2015-5715.gif
+  - [ ] GIF Walkthrough: ![](https://github.com/cboyd0319/cpw7/blob/master/gifs/CVE-2015-5715.gif)
   - [ ] Steps to recreate: Similar to the isue above. An Editor user or above creates a post with the exploit link in text (not WYSIWYG) mode.
   - [ ] Affected source code: https://github.com/WordPress/WordPress/commit/9c57f3a4291f2311ae05f22c10eedeb0f69337ab
     - [Debian.org](https://security-tracker.debian.org/tracker/CVE-2015-5715)
