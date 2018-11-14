@@ -8,13 +8,13 @@ Time spent: **X** hours spent in total
 
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough: https://github.com/cboyd0319/cpw7/blob/master/gifs/CVE-2015-5622.gif
+  - [ ] Steps to recreate: Allows remote authenticated users to inject arbitrary web script or HTML by leveraging the Author or Contributor role to place a crafted shortcode inside an HTML element
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://nvd.nist.gov/vuln/detail/CVE-2015-5622)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
