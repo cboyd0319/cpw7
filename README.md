@@ -12,8 +12,8 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: https://github.com/cboyd0319/cpw7/blob/master/gifs/CVE-2015-5622.gif
-  - [ ] Steps to recreate: Allows remote authenticated users to inject arbitrary web script or HTML by leveraging the Author or Contributor role to place a crafted shortcode inside an HTML element
-  - [ ] Affected source code:
+  - [ ] Steps to recreate: An Editor user or above creates a post with the exploit link in text (not WYSIWYG) mode.
+  - [ ] Affected source code: https://core.trac.wordpress.org/changeset/33359
     - [NVD](https://nvd.nist.gov/vuln/detail/CVE-2015-5622)
     - [WPVulnDB](https://wpvulndb.com/vulnerabilities/8111)
 2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
@@ -21,10 +21,11 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.3.1
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [ ] GIF Walkthrough: https://github.com/cboyd0319/cpw7/blob/master/gifs/CVE-2015-5715.gif
+  - [ ] Steps to recreate: Similar to the isue above. An Editor user or above creates a post with the exploit link in text (not WYSIWYG) mode.
+  - [ ] Affected source code: https://github.com/WordPress/WordPress/commit/9c57f3a4291f2311ae05f22c10eedeb0f69337ab
+    - [Debian.org](https://security-tracker.debian.org/tracker/CVE-2015-5715)
+    - [WPVulnDB](https://wpvulndb.com/vulnerabilities/8188)
 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
